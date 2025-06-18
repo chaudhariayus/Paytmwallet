@@ -12,7 +12,7 @@
   "dependencies": {
     "recoil": "^0.7.7"
   },
-  "exports": {
-    "./useBalance": "./src/atoms/balance"
-  }
+ "exports": {
+    "./useBalance": "./src/hooks/useBalance"
+}
 }

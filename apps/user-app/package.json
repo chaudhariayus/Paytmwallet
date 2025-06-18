@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@repo/db": "*",
+    "@repo/store": "*",
     "@repo/ui": "*",
     "next": "^15.3.0",
     "next-auth": "^4.24.11",
