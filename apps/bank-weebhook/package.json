@@ -1,5 +1,5 @@
 {
-  "name": "@repo/store",
+  "name": "bank-weebhook",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "recoil": "^0.7.7"
-  },
- "exports": {
-    "./useBalance": "./src/hooks/useBalance.ts"
-}
+    "@repo/db": "*",
+    "@types/express": "^5.0.3",
+    "esbuild": "^0.25.5"
+  }
 }
